@@ -36,9 +36,9 @@
                 <a class="btn btn-outline-secondary" href="#">Get a live tour</a>
             </div>
         </div>
-
+        
         <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-            <div class="bg-white me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="bg-white me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" *ngIf="getShowcaseElements('swift-ui').length">
                 <div class="my-3 p-3">
                     <h2 class="display-5">Even iOS apps</h2>
                     <p class="lead">SwiftUI</p>
@@ -47,7 +47,7 @@
                 </div> -->
                 <img style="width: 40%;" src="../../assets/iphone.png" alt="">
             </div>
-            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" *ngIf="getShowcaseElements('watch').length">
                 <div class="my-3 py-3">
                     <h2 class="display-5">And a lot more...</h2>
                     <p class="lead">Your idea might be on a watch to...</p>
@@ -59,7 +59,7 @@
         </div>  
 
         <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" *ngIf="getShowcaseElements('ecommerce').length">
                 <div class="my-3 py-3">
                     <h2 class="display-5">Online shop</h2>
                     <p class="lead">Get everything you want. At your door.</p>
@@ -68,7 +68,7 @@
                     style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> -->
                     <img style="width: 70%;" src="../../assets/shop.png" alt="">
             </div>
-            <div class="bg-white me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="bg-white me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" *ngIf="getShowcaseElements('homepage').length">
                 <div class="my-3 p-3">
                     <h2 class="display-5">Beautiful home pages</h2>
                     <p class="lead">And an even better bussiness.</p>
@@ -80,7 +80,7 @@
         </div>
 
         <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-            <div class="bg-white me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="bg-white me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" *ngIf="getShowcaseElements('ski').length">
                 <div class="my-3 p-3">
                     <h2 class="display-5">What about ski?</h2>
                     <p class="lead">You should check the slopes before.</p>
@@ -89,7 +89,7 @@
                 </div> -->
                 <img style="width: 70%;" src="../../assets/macbook.png" alt="">
             </div>
-            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-dark overflow-hidden">
+            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-dark overflow-hidden" *ngIf="getShowcaseElements('mobile-web').length">
                 <div class="my-3 py-3">
                     <h2 class="display-7">Even this website.</h2>
                     <p class="lead"></p>
@@ -100,26 +100,6 @@
             </div>
         </div>
 
-        <!-- <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-                <div class="my-3 p-3">
-                    <h2 class="display-5">Lorem ipsum.</h2>
-                    <p class="lead">Lorem ipsum.</p>
-                </div>
-                <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-                </div>
-                <img style="width: 80%;" src="https://www.contentfunnel.com/wp-content/uploads/2019/11/51-514206_imac-frame-imac-png-transparent-png.png" alt="">
-            </div>
-            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-                <div class="my-3 py-3">
-                    <h2 class="display-5">Lorem ipsum.</h2>
-                    <p class="lead">Lorem ipsum.</p>
-                </div>
-                <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-                </div>
-                <img style="width: 80%;" src="https://www.contentfunnel.com/wp-content/uploads/2019/11/51-514206_imac-frame-imac-png-transparent-png.png" alt="">
-            </div>
-        </div> -->
     </main>
 
     <footer class="container py-5">

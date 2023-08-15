@@ -5,10 +5,9 @@ import { AppComponent } from "./app.component";
 import { HomepageComponent } from './homepage/homepage.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { SearchComponent } from './search/search.component';
 
 @NgModule({
-  declarations: [AppComponent, HomepageComponent, NavbarComponent, SearchComponent],
+  declarations: [AppComponent, HomepageComponent, NavbarComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule],
   bootstrap: [AppComponent]
 })

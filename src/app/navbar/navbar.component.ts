@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
-import {Router} from '@angular/router';
+import { Router } from '@angular/router';
+import { SearchService } from '../search.service';
 
 @Component({
   selector: 'app-navbar',
@@ -15,7 +16,8 @@ export class NavbarComponent implements OnInit {
 
   constructor(
     private formBuilder: FormBuilder,
-    private router: Router
+    private router: Router,
+    private searchService: SearchService
   ) { }
 
   ngOnInit(): void {
@@ -23,7 +25,7 @@ export class NavbarComponent implements OnInit {
 
   onSubmit(): void {
     const searchText = this.searchForm.value.search;
-    this.router.navigate(['/search'], {queryParams: {searchText: searchText}});
+    this.searchService.setSearchTerm(searchText)
   }
 
 }
