@@ -255,7 +255,7 @@ function HomepageComponent_div_21_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3, "Beautiful home pages");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "p", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5, "And an even better bussiness.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5, "And 1 even better bussiness.");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](6, "img", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
